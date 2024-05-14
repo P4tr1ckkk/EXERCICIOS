@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML</title>
+</head>
+<body>
+    <!--Para ganhar tempo de estudo simplifiquei código-->
+    <h1>De uma olhada nesses videos irados!</h1>
+    <p>Este video está hospedado diretamente no meu servidor</p>
+    <video src="midia/video-pexels.mp4" width="560" poster="img/img-thumb.jpg" controls loop></video>
+
+    <!-- O certo seria colocar em diversos formatos (mp4,ogg,ogv,webm)
+    utilizando as tags source-->
+
+    <!--            CORRETO SERIA:
+        <video width="500" poster="imagens/imh-thumb.jpg controls>"
+        <source src="midia/video-pexels.mp4" type="video/mp4">
+        <source src="midia/video-pexels.ogv" type="video/ogv">
+        <source src="midia/video-pexels.ogg" type="video/ogg">
+        <source src="midia/video-pexels.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo<p/>
+    -->
+    <h1>Videos hospedados no YouTube</h1>
+        <!--Ir emcompartilhar - video incorporado - copiar e colar-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=rz7cj2paynZQQcUq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

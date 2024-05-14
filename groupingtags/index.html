@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        aside {
+            text-align: right;
+            margin-right: 20px;
+            background-color: antiquewhite;
+            
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.322);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        nav {
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+            background-color: rgb(178, 252, 252);
+            padding: 3px;
+        }
+
+        nav > a { /*o sinal '>' significa filho de ...*/
+            text-decoration: none;
+            color: rgb(253, 161, 161);
+            font-weight: bold;
+        }
+
+        nav :hover { /*:hover é uma pseudo classe para fazer algo quando o mouse passar por cima*/
+            text-decoration: underline;
+            color: rgb(245, 73, 73);
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 500px;/*ou 50%*/
+        }
+    </style>
+</head>
+<body>
+    <header> <!--header é o cabeçalho-->
+        <h1>Brasil é bom?</h1>
+            <nav> <!--menu de navegação-->
+                <a href="">Link</a>
+                <a href="">Link</a>
+                <a href="">Link</a>
+                <a href="">Link</a>
+            </nav>
+    </header>
+    <main> <!--Main é o conteúdo principal-->
+        <section id="assuntos">
+            <h2>Pizza, gelato e peperone</h2>
+        </section>
+        
+        <section id="noticias">
+            <article><!--article é artigo-->
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quam fuga, autem cumque odio id modi, laudantium, velit totam recusandae hic! Aperiam libero quae aliquid aut voluptatibus adipisci animi dolore!"</p>
+                    <aside>Dito por Dom Peperone</aside> <!--è o que vai fora do article-->
+            </article>
+        </section>
+    </main>
+       
+    <footer> <!--footer é o rodapé-->
+            <p>Desenvoldido por Patrick</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

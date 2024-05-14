@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('otf');
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 16px;
+}
+
+body {
+    font-family: 'idroid', sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(#34b76e,  #2ea362 ,#298f56, #237b4a, #1d673e ,#185332, #123f26);
+    margin: 0px;
+}
+
+h1#titulo1{/*sem espaço msm*/
+    text-align: center;
+}
+
+p#paragrafo1{
+    text-align: center;
+}
+
+
+
+footer{
+    padding: 7px;
+    text-align: center;
+    background-color: #123f26;
+    color: white;
+}
+
+footer > p{
+    margin: 0;
+}
+
+main{
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 5px;
+}
+
+h2{
+    font-family: "idroid";
+    color: #123f26;
+}
+
+h3 {
+    background-image: linear-gradient(to left , #34b76f09,#237b4b2a,#1d673e46);
+    color: #123f26;
+}
+
+#assunto2{
+    text-align: center;
+}
+
+#video{
+    background-color: #123f26;
+    padding: 20px;
+}
+
+a{
+    color: #123f26;
+    text-decoration: none;
+}
+
+#irinafoto {
+    padding: 20px;
+}
+
+#droidfoto {
+    padding: 20px;
+    text-align: center;
+}
+

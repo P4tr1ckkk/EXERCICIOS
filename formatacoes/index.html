@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+  <!--1-)-->  <style>
+        mark{
+            background-color: lime;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Significado = HTML / Forma = CSS-->
+
+    <!-- Aprendizado em negrito-->
+    <h1>Principais Formatações</h1>
+         <h2>Negrito / Destaque</h2> 
+              <p><b>Este texto está em negrito usando a tag B (sem semântica)</b></p><!--Evitar-->
+             <p><strong>Este texto está em negrito usando a tag strong (com semântica)</strong> </p><!--Utilizar-->
+    <!-- Aprendizado em Itálico-->
+    <h2>Itálico / Ênfase</h2> 
+        <p><i>Este texto está em itálico usando a tag i (sem semântica)</i></p><!--Evitar-->
+        <p><em>Este texto está em itálico usando a tag em (com semântica)</em></p><!--Utilizar-->
+
+    <!-- Aprendizado com marca texto-->
+    <h2>Texto Marcado</h2>
+        <p><mark>Podemos criar também um texto marcado usando a tag mark</mark></p>
+    <!--Para alterar a cor do marca texto podemos utilizar o Style no head com o comando bgcolor "x" 
+        Como podemos ver no comentário 1-)-->
+
+    <!-- Aprendizado de tamanho de texto-->    
+    <h2>Texto grande e texto pequeno</h2>
+        <p>Estamos ciando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+
+        <!--Aprendizado de Texto Risacado-->
+    <h2>Texto deletado</h2>
+        <p><del>podemos utilizar a tag del para itens excluídos</del></p><!--Texto com risco no meio-->
+        
+        <!--Aprendizado de Texto Sublinhado-->
+    <h2>Texto inserido</h2>
+        <p><ins>podemos sublinar um texto utilizando a tag ins (com semântica)</ins></p>
+        <p><u>também podemos sublinhar um texto com a tag u (não semântica)</u></p>
+
+        <!--Aprendizado de Texto sobrescrito como fórmulas-->
+    <h2>Texto sobrescrito</h2>
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+        <!--Aprendizado de Texto subscrito como fórmulas-->
+    <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+    <h2>Formatação Código-fonte / Pré-formatações</h2>
+    <p>O comando <code>document.getElementbyId('teste')</code> é escrito em linguagem JavaScript.</p>
+    
+    
+    <pre><!--Comando para utilizar exibir o texto considerando os espaços (identação)-->
+        <code><!--Comando para utilizar o texto na fonte de programador-->
+            num = int (input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+        </code>
+    </pre>
+
+        <!--Aprendizado de citações-->
+    <h2>Citações simples</h2><!--Sem quebra de linhas-->
+        <p>Como diria o pai de um amigo: <q> O computador é um burro muito rápido </q></p>
+
+    <h2>Citações completas</h2><!--Com quebra de linhas-->
+        <p>Segundo o filósofo Piton:</p>
+            <blockquote><q> Tudo na vida depende da fome que você tem. </q></blockquote>
+
+     <h2>Texto invertido</h2><!--Tag BDO rtl para inverter -->
+     <p><bdo dir="rtl">Texto invertido é inútil cara.</bdo></p>     
+
+</body>
+</html>

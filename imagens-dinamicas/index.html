@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídidas em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse sitem em vários dispositivos diferente ou
+        simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+            <picture> <!--Tag picture para inserir fotos-->
+                <!--Colocar os sources das img sempre na ordem decrescente-->
+                <source media="(max-width: 750px)" srcset="P.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="M.png" type="image/png"> 
+                <!--Alterar "media para Max-width e lembrar de sempre colocar 50px a mais para não dar rolagem"-->
+                <img src="G.png" alt="img flexivel">
+            </picture>
+</body>
+</html>
